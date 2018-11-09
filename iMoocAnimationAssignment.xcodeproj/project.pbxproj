@@ -7,25 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		760ABED21FF19B843EE974BD /* libPods-iMoocAnimationAssignment.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7131A51DB3AD68D24F320759 /* libPods-iMoocAnimationAssignment.a */; };
+		EA126A5C219029CF0015432A /* SlideMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA126A5B219029CF0015432A /* SlideMenuView.m */; };
+		EA6D52EA2193D562007E05F4 /* KeyFrameAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6D52E92193D562007E05F4 /* KeyFrameAnimation.m */; };
 		EA7357992190057900717B73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7357982190057900717B73 /* AppDelegate.m */; };
-		EA73579C2190057900717B73 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA73579B2190057900717B73 /* ViewController.m */; };
+		EA73579C2190057900717B73 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA73579B2190057900717B73 /* MainViewController.m */; };
 		EA73579F2190057900717B73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA73579D2190057900717B73 /* Main.storyboard */; };
 		EA7357A12190057A00717B73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA7357A02190057A00717B73 /* Assets.xcassets */; };
 		EA7357A42190057A00717B73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA7357A22190057A00717B73 /* LaunchScreen.storyboard */; };
 		EA7357A72190057A00717B73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7357A62190057A00717B73 /* main.m */; };
+		EA7A7EEB2192BAA6007A08DD /* TransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7A7EEA2192BAA6007A08DD /* TransitionAnimation.m */; };
+		EAD185D3219071BE00885C99 /* AnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD185D1219071BE00885C99 /* AnimationViewController.m */; };
+		EAD185D4219071BE00885C99 /* AnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAD185D2219071BE00885C99 /* AnimationViewController.xib */; };
+		EAD185D82191765000885C99 /* BasicAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD185D72191765000885C99 /* BasicAnimation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7131A51DB3AD68D24F320759 /* libPods-iMoocAnimationAssignment.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iMoocAnimationAssignment.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEF3EE065D1BB2688E7E922D /* Pods-iMoocAnimationAssignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iMoocAnimationAssignment.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iMoocAnimationAssignment/Pods-iMoocAnimationAssignment.debug.xcconfig"; sourceTree = "<group>"; };
+		EA126A5A219029CF0015432A /* SlideMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlideMenuView.h; sourceTree = "<group>"; };
+		EA126A5B219029CF0015432A /* SlideMenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlideMenuView.m; sourceTree = "<group>"; };
+		EA6D52E82193D562007E05F4 /* KeyFrameAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyFrameAnimation.h; sourceTree = "<group>"; };
+		EA6D52E92193D562007E05F4 /* KeyFrameAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyFrameAnimation.m; sourceTree = "<group>"; };
 		EA7357942190057900717B73 /* iMoocAnimationAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMoocAnimationAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA7357972190057900717B73 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EA7357982190057900717B73 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EA73579A2190057900717B73 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EA73579B2190057900717B73 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA73579A2190057900717B73 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		EA73579B2190057900717B73 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		EA73579E2190057900717B73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA7357A02190057A00717B73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA7357A32190057A00717B73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA7357A52190057A00717B73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA7357A62190057A00717B73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA7A7EE92192BAA6007A08DD /* TransitionAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransitionAnimation.h; sourceTree = "<group>"; };
+		EA7A7EEA2192BAA6007A08DD /* TransitionAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransitionAnimation.m; sourceTree = "<group>"; };
+		EAD185D0219071BE00885C99 /* AnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationViewController.h; sourceTree = "<group>"; };
+		EAD185D1219071BE00885C99 /* AnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationViewController.m; sourceTree = "<group>"; };
+		EAD185D2219071BE00885C99 /* AnimationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnimationViewController.xib; sourceTree = "<group>"; };
+		EAD185D62191765000885C99 /* BasicAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicAnimation.h; sourceTree = "<group>"; };
+		EAD185D72191765000885C99 /* BasicAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicAnimation.m; sourceTree = "<group>"; };
+		F9D9F5E98F7B8EA8928F1DBF /* Pods-iMoocAnimationAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iMoocAnimationAssignment.release.xcconfig"; path = "Pods/Target Support Files/Pods-iMoocAnimationAssignment/Pods-iMoocAnimationAssignment.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +54,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				760ABED21FF19B843EE974BD /* libPods-iMoocAnimationAssignment.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D201E8E35EBCB67331B7047 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7131A51DB3AD68D24F320759 /* libPods-iMoocAnimationAssignment.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA126A50219013DE0015432A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				EA73579A2190057900717B73 /* MainViewController.h */,
+				EA73579B2190057900717B73 /* MainViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		EA73578B2190057900717B73 = {
 			isa = PBXGroup;
 			children = (
 				EA7357962190057900717B73 /* iMoocAnimationAssignment */,
 				EA7357952190057900717B73 /* Products */,
+				F08709D7E450D8A519DFDAFF /* Pods */,
+				2D201E8E35EBCB67331B7047 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +99,12 @@
 		EA7357962190057900717B73 /* iMoocAnimationAssignment */ = {
 			isa = PBXGroup;
 			children = (
+				EAD185D52191762B00885C99 /* Animations */,
+				EAD185CF2190719D00885C99 /* AnimationViewController */,
+				EAD185CE21905BCD00885C99 /* SlideMenu */,
+				EA126A50219013DE0015432A /* Main */,
 				EA7357972190057900717B73 /* AppDelegate.h */,
 				EA7357982190057900717B73 /* AppDelegate.m */,
-				EA73579A2190057900717B73 /* ViewController.h */,
-				EA73579B2190057900717B73 /* ViewController.m */,
 				EA73579D2190057900717B73 /* Main.storyboard */,
 				EA7357A02190057A00717B73 /* Assets.xcassets */,
 				EA7357A22190057A00717B73 /* LaunchScreen.storyboard */,
@@ -71,6 +114,47 @@
 			path = iMoocAnimationAssignment;
 			sourceTree = "<group>";
 		};
+		EAD185CE21905BCD00885C99 /* SlideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				EA126A5A219029CF0015432A /* SlideMenuView.h */,
+				EA126A5B219029CF0015432A /* SlideMenuView.m */,
+			);
+			path = SlideMenu;
+			sourceTree = "<group>";
+		};
+		EAD185CF2190719D00885C99 /* AnimationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EAD185D0219071BE00885C99 /* AnimationViewController.h */,
+				EAD185D1219071BE00885C99 /* AnimationViewController.m */,
+				EAD185D2219071BE00885C99 /* AnimationViewController.xib */,
+			);
+			path = AnimationViewController;
+			sourceTree = "<group>";
+		};
+		EAD185D52191762B00885C99 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				EAD185D62191765000885C99 /* BasicAnimation.h */,
+				EAD185D72191765000885C99 /* BasicAnimation.m */,
+				EA7A7EE92192BAA6007A08DD /* TransitionAnimation.h */,
+				EA7A7EEA2192BAA6007A08DD /* TransitionAnimation.m */,
+				EA6D52E82193D562007E05F4 /* KeyFrameAnimation.h */,
+				EA6D52E92193D562007E05F4 /* KeyFrameAnimation.m */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		F08709D7E450D8A519DFDAFF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DEF3EE065D1BB2688E7E922D /* Pods-iMoocAnimationAssignment.debug.xcconfig */,
+				F9D9F5E98F7B8EA8928F1DBF /* Pods-iMoocAnimationAssignment.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,6 +162,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA7357AA2190057A00717B73 /* Build configuration list for PBXNativeTarget "iMoocAnimationAssignment" */;
 			buildPhases = (
+				13F50F58ADECDF5657D9D556 /* [CP] Check Pods Manifest.lock */,
 				EA7357902190057900717B73 /* Sources */,
 				EA7357912190057900717B73 /* Frameworks */,
 				EA7357922190057900717B73 /* Resources */,
@@ -131,17 +216,48 @@
 				EA7357A42190057A00717B73 /* LaunchScreen.storyboard in Resources */,
 				EA7357A12190057A00717B73 /* Assets.xcassets in Resources */,
 				EA73579F2190057900717B73 /* Main.storyboard in Resources */,
+				EAD185D4219071BE00885C99 /* AnimationViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13F50F58ADECDF5657D9D556 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iMoocAnimationAssignment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EA7357902190057900717B73 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA73579C2190057900717B73 /* ViewController.m in Sources */,
+				EA7A7EEB2192BAA6007A08DD /* TransitionAnimation.m in Sources */,
+				EA73579C2190057900717B73 /* MainViewController.m in Sources */,
+				EA6D52EA2193D562007E05F4 /* KeyFrameAnimation.m in Sources */,
+				EAD185D82191765000885C99 /* BasicAnimation.m in Sources */,
+				EA126A5C219029CF0015432A /* SlideMenuView.m in Sources */,
+				EAD185D3219071BE00885C99 /* AnimationViewController.m in Sources */,
 				EA7357A72190057A00717B73 /* main.m in Sources */,
 				EA7357992190057900717B73 /* AppDelegate.m in Sources */,
 			);
@@ -283,6 +399,7 @@
 		};
 		EA7357AB2190057A00717B73 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEF3EE065D1BB2688E7E922D /* Pods-iMoocAnimationAssignment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +417,7 @@
 		};
 		EA7357AC2190057A00717B73 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9D9F5E98F7B8EA8928F1DBF /* Pods-iMoocAnimationAssignment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
